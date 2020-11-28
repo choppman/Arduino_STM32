@@ -1,5 +1,6 @@
 #include <libmaple/adc.h>
 
+extern volatile unsigned int adc_result;
 
 void start_single_convert(adc_dev* dev, uint8 channel);
 
